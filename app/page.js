@@ -5,7 +5,7 @@ const page = () => {
     <>
       <div className="main">
         <div className="nav">
-        <h2>Logo</h2>
+          <h2 >Logo</h2>
 
           <div className="nav-part2">
             <h4>Store</h4>
@@ -19,14 +19,21 @@ const page = () => {
         </div>
 
         <div className="content">
-        <div className="left">
-          <h1>Learn From the <span>coolest</span> website of India.</h1>
-          <p> Lorem ipsum dolor sit amett dolorsepidatat non proident, sunt in  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-          <button>Explore Now !</button>
-        </div>
-        <div className="right">
-          <img src="/coding.avif"  alt="myimage"></img>
-        </div>
+          <div className="left">
+            <h1>
+              Learn From the <span>coolest</span> website of India.
+            </h1>
+            <p>
+              {" "}
+              Lorem ipsum dolor sit amett dolorsepidatat non proident, sunt in
+              non proident, sunt in culpa qui officia deserunt mollit anim id
+              est laborum.{" "}
+            </p>
+            <button>Explore Now !</button>
+          </div>
+          <div className="right">
+            <img src="/coding.avif" alt="myimage"></img>
+          </div>
         </div>
       </div>
     </>
