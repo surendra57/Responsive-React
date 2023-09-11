@@ -2,7 +2,7 @@
 import Header from "@/Components/Header";
 import React, { useState } from "react";
 
-const page = () => {
+const Page = () => {
 
   const [logoName, setlogoName] = useState(null)
 const dataFlow =(childdata)=>{
@@ -36,7 +36,7 @@ const dataFlow =(childdata)=>{
               Learn From the <span>coolest</span> website of India.
             </h1>
             <p>
-              
+
               {" "}
               Lorem ipsum dolor sit amett dolorsepidatat non proident, sunt in
               non proident, sunt in culpa qui officia deserunt mollit anim id
@@ -53,4 +53,4 @@ const dataFlow =(childdata)=>{
   );
 };
 
-export default page;
+export default Page;
