@@ -1,11 +1,23 @@
-import React from "react";
+"use client"
+import Header from "@/Components/Header";
+import React, { useState } from "react";
 
 const page = () => {
+
+  const [logoName, setlogoName] = useState(null)
+const dataFlow =(childdata)=>{
+
+  console.log("parent")
+  console.log(childdata)
+  setlogoName(childdata)
+}
+
   return (
     <>
+    <Header data={dataFlow} />
       <div className="main">
         <div className="nav">
-          <h2 >Logo</h2>
+          <h2 >{logoName}</h2>
 
           <div className="nav-part2">
             <h4>Store</h4>
